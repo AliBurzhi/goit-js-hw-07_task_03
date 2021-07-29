@@ -25,7 +25,7 @@ const createListItem  = images.map(image => {
     itemEl.style.listStyle = 'none';
     itemEl.insertAdjacentHTML(
         'afterbegin',
-        `<img src='${image.url}' alt='${image.alt}' width='400px'>`,
+        `<img src='${image.url}' alt='${image.alt}' width='400px'>`
     );
     return itemEl;
     
