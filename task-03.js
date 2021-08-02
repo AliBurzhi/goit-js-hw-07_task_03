@@ -54,3 +54,33 @@
 //  }
 // }
 // ====================================================================================================
+
+// TASK 06 ============================================================================================
+
+// const inputEl = document.querySelector('#validation-input');
+
+// inputEl.addEventListener('blur', makeValidText);
+
+// function makeValidText(event) {
+//   if (event.currentTarget.value.length === 6) {
+//     inputEl.classList.remove('invalid');
+//     inputEl.classList.add('valid');
+//   } else {
+//     inputEl.classList.remove('valid');
+//     inputEl.classList.add('invalid');
+//   }
+// }
+//========================================================================================================
+
+// TASK 07 ===============================================================================================
+
+// const inputEl = document.querySelector('#font-size-control');
+// const spanEl = document.querySelector('#text');
+// inputEl.addEventListener('input', makeMagic);
+
+// function makeMagic(event) {
+  
+//   spanEl.style.fontSize = event.currentTarget.value + 'px';
+// }
+
+//========================================================================================================
